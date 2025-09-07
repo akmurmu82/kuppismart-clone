@@ -22,14 +22,14 @@ export default function TestimonialMarquee() {
 
     return (
         <section className="bg-[#e8e6da] py-8 overflow-hidden">
-            <div className="max-w-3xl mx-auto px-4">
+            <div className="max-w-3xl mx-auto px-4 text-center space-y-4 mb-8">
                 {/* Heading */}
                 <h2 className="text-3xl md:text-4xl font-bold leading-snug">
                     We let our <span className="text-green-600">clients</span> be <br /> our speaker
                 </h2>
 
                 {/* Subtitle */}
-                <p className="mt-4 text-gray-700 text-base md:text-lg">
+                <p className="mt-4 text-gray-700 text-bold md:text-lg">
                     See how KuppiSmart is transforming <br className="hidden md:block" /> farms with smart IoT solutions
                 </p>
 
@@ -37,7 +37,7 @@ export default function TestimonialMarquee() {
                 <div className="mt-6">
                     <a
                         href="#contact"
-                        className="inline-flex items-center gap-2 bg-green-700 text-white px-6 py-2 rounded-lg shadow hover:bg-green-800 transition"
+                        className="inline-flex items-center gap-2 bg-[#7a9d3f] text-white px-6 py-2 rounded-lg shadow hover:bg-[#7a9d3f] transition"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

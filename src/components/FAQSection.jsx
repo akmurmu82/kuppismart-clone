@@ -39,7 +39,7 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="bg-[#e8e6da] py-12 px-4">
+    <section className="bg-[#e8e6da] py-12 px-4" id="faqs">
       <div className="max-w-3xl mx-auto">
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-center">
@@ -50,9 +50,9 @@ export default function FAQSection() {
         {/* FAQ Items */}
         <div className="mt-8 space-y-4">
           {faqs.map((faq, index) => (
-            <div key={index} className="border border-green-600 rounded-lg">
+            <div key={index} className="border-[3px] border-green-600 rounded-lg">
               <button
-                className="w-full flex justify-between items-center px-4 py-3 text-left font-medium hover:bg-green-50 transition"
+                className="w-full flex justify-between items-center px-4 py-3 text-left font-medium bg-white transition cursor-pointer rounded-lg"
                 onClick={() => toggleFAQ(index)}
               >
                 {faq.question}

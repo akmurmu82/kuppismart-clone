@@ -8,11 +8,10 @@ export default function HeroSection() {
                 {/* Left Content */}
                 <div className="max-w-xl text-center lg:text-left space-y-6">
                     <div className="text-right hight-0">
-                        <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-                            Smart IoT Solutions <br />
-                            for a{" "}
+                        <h1 className="text-2xl md:text-4xl font-extrabold">
+                            Smart IoT Solutions for a<br />
                             <span className="text-green-600">
-                                Sustainable <br /> Future
+                                Sustainable Future
                             </span>
                         </h1>
                         <div className="flex justify-end">
@@ -29,7 +28,7 @@ export default function HeroSection() {
                         <div className="my-5">
                             <a
                                 href="#contact"
-                                className="inline-flex items-center space-x-2 bg-green-700 hover:bg-green-800 text-white font-medium px-6 py-3 rounded-lg shadow-md transition"
+                                className="inline-flex items-center space-x-2 bg-[#7a9d3f] hover:bg-green-800 text-white font-medium px-6 py-3 rounded-lg shadow-md transition"
                             >
                                 <Phone size={18} />
                                 <span>Contact Us</span>

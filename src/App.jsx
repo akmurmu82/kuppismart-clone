@@ -9,6 +9,7 @@ import SDGGrid from './components/SDGGrid'
 import TestimonialMarquee from './components/TestimonialMarquee'
 import FAQSection from './components/FAQSection'
 import ContactSection from './components/ContactSection'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <TestimonialMarquee />
       <FAQSection />
       <ContactSection />
+      <Footer />
     </>
   )
 }

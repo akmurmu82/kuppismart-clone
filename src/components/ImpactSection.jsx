@@ -2,7 +2,7 @@ export default function ImpactSection() {
     return (
         <section className="bg-[#e8e6da] pb-12 px-6">
             <div className="max-w-7xl mx-auto">
-                <div className="bg-green-600 text-white rounded-2xl py-12 px-6">
+                <div className="bg-[#7a9d3f] text-white rounded-2xl py-12 px-6">
                     {/* Title */}
                     <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">
                         Our Impact

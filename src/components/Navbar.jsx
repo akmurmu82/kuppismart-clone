@@ -45,7 +45,7 @@ export default function Navbar() {
 
             {/* Mobile Menu */}
             {isOpen && (
-                <div className="md:hidden px-4 pb-4 space-y-2">
+                <div className="md:hidden px-4 pb-4 space-y-2 text-center">
                     <a href="#services" className="block text-gray-800 hover:text-green-700 font-medium">
                         Services
                     </a>
@@ -55,6 +55,9 @@ export default function Navbar() {
                     <a href="#contact" className="block text-gray-800 hover:text-green-700 font-medium">
                         Contact Us
                     </a>
+                    <button className="mt-2 w-full bg-green-700 hover:bg-green-800 text-white font-medium px-4 py-2 rounded-lg shadow-md transition">
+                        Login
+                    </button>
                 </div>
             )}
         </nav>

@@ -23,7 +23,7 @@ export default function SolutionsSection() {
     ];
 
     return (
-        <section className="bg-[#e8e6da] py-12 px-6">
+        <section className="bg-[#e8e6da] py-12 px-6" id="services">
             <div className="max-w-7xl mx-auto">
                 <h2 className="text-2xl md:text-3xl font-bold text-center text-green-800 mb-10">
                     Innovative Solutions We Offer
