@@ -10,17 +10,17 @@ export default function HeroSection() {
                     <div className="text-right hight-0">
                         <h1 className="text-2xl md:text-4xl font-extrabold">
                             Smart IoT Solutions for a<br />
-                            <span className="text-green-600">
+                            <span className="text-[#7a9d3f]">
                                 Sustainable Future
                             </span>
                         </h1>
-                        <div className="flex justify-end">
+                        <div className="flex justify-end mt-2 h-10">
                             <img src="https://res.cloudinary.com/dt8emxboh/image/upload/v1745817632/jdnegc2zhketehva8i6n.png" alt="" />
                         </div>
                     </div>
 
                     <div className="text-center">
-                        <p className="text-gray-700 text-lg font-semibold">
+                        <p className="text-gray-700 text-md font-semibold">
                             Harness the power of IoT to optimize productivity, enhance
                             efficiency, and build a greener tomorrow
                         </p>

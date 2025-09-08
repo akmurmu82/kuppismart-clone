@@ -5,7 +5,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="bg-[#e8e6da] shadow-sm">
+        <nav className="bg-[#e8e6da] shadow-sm border-b border-gray-400">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
 
@@ -14,7 +14,7 @@ export default function Navbar() {
                         <img
                             src="https://res.cloudinary.com/dt8emxboh/image/upload/v1745313653/gyjkjrbk5q1kw7xnfwzr.png" // replace with your logo
                             alt="KuppiSmart"
-                            className="h-10 w-auto"
+                            className="h-8 w-auto"
                         />
                     </div>
 
